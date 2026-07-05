@@ -93,6 +93,11 @@ F = \frac{s^2}{\bar{x}}
 ## Usage
 
 ```javascript
+import incrnanmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmvmr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-nanmvmr/tags). For example,
+
+```javascript
 import incrnanmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmvmr@v0.0.0-esm/index.mjs';
 ```
 
@@ -191,7 +196,7 @@ F = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrnanmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmvmr@v0.0.0-esm/index.mjs';
+import incrnanmvmr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmvmr@esm/index.mjs';
 
 // Initialize an accumulator:
 var accumulator = incrnanmvmr( 5 );
