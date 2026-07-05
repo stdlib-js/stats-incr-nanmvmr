@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`1e41388`](https://github.com/stdlib-js/stdlib/commit/1e41388c3dc9db9af097768c45a68abc914f917f) - **chore:** clean-up _(by Athan Reines)_
 -   [`9d748d4`](https://github.com/stdlib-js/stdlib/commit/9d748d4e25e9ec27ca36dee176f7e20553b56054) - **style:** fix missing line break _(by Athan Reines)_
 -   [`f1c4af4`](https://github.com/stdlib-js/stdlib/commit/f1c4af45ea50d299496b03b68992cd1b30d11dd9) - **feat:** add `stats/incr/nanmvmr` [(#6293)](https://github.com/stdlib-js/stdlib/pull/6293) _(by Hemang Choudhary, Philipp Burckhardt, stdlib-bot)_
 

@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/stats-incr-nanmvmr",
   "version": "0.0.0",
-  "description": "Compute a moving variance-to-mean ratio (VMR) incrementally, ignoring NaN values.",
+  "description": "Compute a moving variance-to-mean ratio (VMR) incrementally, ignoring `NaN` values.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -43,7 +43,9 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-almost-same-value": "^0.1.1",
+    "@stdlib/random-array-poisson": "^0.2.2",
     "@stdlib/random-base-randu": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
@@ -90,8 +92,7 @@
     "sliding",
     "window",
     "moving",
-    "nan",
-    "ignore"
+    "nan"
   ],
   "funding": {
     "type": "opencollective",
