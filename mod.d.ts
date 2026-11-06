@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,16 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 /**
-* Compute a moving variance-to-mean ratio (VMR) incrementally, ignoring `NaN` values.
+* If provided a value, returns an updated moving variance-to-mean ratio; otherwise, returns the current moving variance-to-mean ratio.
 *
-* @module @stdlib/stats-incr-nanmvmr
+* ## Notes
+*
+* -   If provided `NaN`, the accumulated value is not updated (i.e., `NaN` values are ignored).
+*
+* @param x - value
+* @returns accumulated value or null
+*/
+type accumulator = ( x?: number ) => number | null;
+
+/**
+* Returns an accumulator function which incrementally computes a moving variance-to-mean ratio (VMR), ignoring `NaN` values.
+*
+* @param W - window size
+* @param mean - mean value
+* @throws first argument must be a positive integer
+* @returns accumulator function
 *
 * @example
-* var incrnanmvmr = require( '@stdlib/stats-incr-nanmvmr' );
-*
 * var accumulator = incrnanmvmr( 3 );
 *
 * var F = accumulator();
@@ -51,13 +66,13 @@
 *
 * F = accumulator();
 * // returns ~2.55
+*
+* @example
+* var accumulator = incrnanmvmr( 3, 2.0 );
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function incrnanmvmr( W: number, mean?: number ): accumulator;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = incrnanmvmr;
