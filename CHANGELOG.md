@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-05)
+## Unreleased (2026-11-06)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`5c4b613`](https://github.com/stdlib-js/stdlib/commit/5c4b61336167ea0936140e859f85df7f52278e63) - **docs:** update descriptions and clean-up [(#15625)](https://github.com/stdlib-js/stdlib/pull/15625) _(by Philipp Burckhardt)_
 -   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
 -   [`1e41388`](https://github.com/stdlib-js/stdlib/commit/1e41388c3dc9db9af097768c45a68abc914f917f) - **chore:** clean-up _(by Athan Reines)_
 -   [`9d748d4`](https://github.com/stdlib-js/stdlib/commit/9d748d4e25e9ec27ca36dee176f7e20553b56054) - **style:** fix missing line break _(by Athan Reines)_
